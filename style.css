@@ -1,0 +1,109 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a, li {
+    color: white;
+}
+.resume {
+    color: black;
+    border: 1px solid tomato;
+    padding: 10px 25px;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    gap: 10px;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header, section {
+    margin-bottom: 100px;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 60%;
+}
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic styling to the skills section */
+  #skills {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .skill {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Apply different background colors to each skill */
+  .skill:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .skill:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style headings and paragraphs inside each skill */
+  .skill h2 {
+    color: #333;
+  }
+  
+  .skill p {
+    color: #666;
+  }
+  
+  /* Hover effect */
+  .skill:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
